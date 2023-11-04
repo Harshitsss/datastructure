@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> CODE COMPILER</title>
+    <link rel="stylesheet" href="body.css"/>
+
+   
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>CODE COMPILER</h1>
+      <div class="toolbar">
+        
+          <div>
+              <button onclick="selectText()">Select Text</button>
+              
+                   <!--<button onclick="applyright()">Align Right</button>-->
+          </div>
+      </div>
+      <label for="code">Enter your code:</label>
+      <textarea id="code" rows="10">
+      </textarea>
+      <button onclick="preview()">Preview</button>
+      <div id="preview" class="preview"></div>
+  </div>
+
+  </body>
+  <script src="javascript.js"></script>
+</html>
